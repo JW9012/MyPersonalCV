@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./header.css";
 
 const Header = () => {
-  /*=============== Change Background Header ===============*/
+  //=============== Change Background Header
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
     // when the scroll is higher than 200 viewport height, add the scroll-header class to a tag with the header tag
@@ -10,7 +10,7 @@ const Header = () => {
     else header.classList.remove("scroll-header");
   });
 
-  /*=============== Toggle Menu ===============*/
+  //=============== Toggle Menu ===============*/
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
 

@@ -1,39 +1,30 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import JWResort from "../../assets/JW-resort.png";
+import JWfoodorder from "../../assets/Demo-foodorder.png";
+import FoodOrderApi from "../../assets/demo_api.png";
 
 export const projectsData = [
   {
     id: 1,
-    image: Work1,
-    title: "Web design",
-    category: "web",
+    image: JWResort,
+    title: "Cabin management",
+    category: "Front",
+    tech: "React",
+    url: "https://jw-resort.vercel.app",
   },
   {
     id: 2,
-    image: Work2,
-    title: "App movil",
-    category: "app",
+    image: JWfoodorder,
+    title: "Food Ordering",
+    category: "Full Stack",
+    tech: "React, Asp.Net",
+    url: "https://jwdemo.azurewebsites.net",
   },
   {
     id: 3,
-    image: Work3,
-    title: "Brand design",
-    category: "design",
-  },
-  {
-    id: 4,
-    image: Work4,
-    title: "App movil",
-    category: "app",
-  },
-  {
-    id: 5,
-    image: Work5,
-    title: "Web design",
-    category: "web",
+    image: FoodOrderApi,
+    title: "Food Order Api",
+    category: "Asp.Net",
+    url: "https://demoapi2024.azurewebsites.net/index.html",
   },
 ];
 
@@ -41,14 +32,5 @@ export const projectsData = [
 export const projectsNav = [
   {
     name: "all",
-  },
-  {
-    name: "web",
-  },
-  {
-    name: "app",
-  },
-  {
-    name: "design",
   },
 ];

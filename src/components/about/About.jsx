@@ -1,7 +1,6 @@
 import "./about.css";
 
 import CV from "../../assets/Joshw-Cv.pdf";
-import Info from "./Info";
 
 const About = () => {
   return (
@@ -11,8 +10,6 @@ const About = () => {
 
       <div className="about__container container">
         <div className="about__data">
-          <Info />
-
           <p className="about__description">
             <span>Long story short...</span> In 2018, I embarked on a career in
             finance and accounting. While working, I was introduced to

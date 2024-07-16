@@ -115,8 +115,8 @@
   color: var(--title-color);
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For large devices */
+/*=============== BREAKPOINTS 
+/* For large devices
 @media screen and (max-width: 992px) {
   .home__content {
     grid-template-columns: 100px repeat(2, 1fr);

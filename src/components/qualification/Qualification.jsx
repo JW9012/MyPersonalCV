@@ -17,7 +17,7 @@ const Qualification = () => {
             </div>
 
             <div>
-              <h3 className="qualification__title">Front-end Developer</h3>
+              <h3 className="qualification__title">Junior Developer</h3>
               <span className="qualification__subtitle">CyberLark Pty Ltd</span>
               <div className="qualification__calender">
                 <i className="uil uil-calendar-alt"></i> 2024

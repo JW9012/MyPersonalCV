@@ -2,11 +2,12 @@ const WorkItems = ({ item }) => {
   return (
     <a
       href={item.url}
-      className="work__button"
+      className="work__card"
       target="_blank"
       rel="noopener noreferrer"
+      key={item.id}
     >
-      <div className="work__card" key={item.id}>
+      <div>
         <img src={item.image} alt="" className="work__img" />
         <h3 className="work__title">{item.title}</h3>
         <span>React</span>

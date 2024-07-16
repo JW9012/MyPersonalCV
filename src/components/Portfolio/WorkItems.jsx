@@ -10,7 +10,7 @@ const WorkItems = ({ item }) => {
       <div>
         <img src={item.image} alt="" className="work__img" />
         <h3 className="work__title">{item.title}</h3>
-        <span>React</span>
+        <span>{item.tech}</span>
         <i className="bx bx-right-arrow-alt work__button-icon"></i>
       </div>
     </a>

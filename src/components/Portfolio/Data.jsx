@@ -7,7 +7,7 @@ export const projectsData = [
     id: 1,
     image: JWResort,
     title: "Cabin management",
-    category: "Front",
+    category: "Frontend",
     tech: "React",
     url: "https://jw-resort.vercel.app",
   },
@@ -23,7 +23,8 @@ export const projectsData = [
     id: 3,
     image: FoodOrderApi,
     title: "Food Order Api",
-    category: "Asp.Net",
+    category: "Backend",
+    tech: "Asp.net",
     url: "https://demoapi2024.azurewebsites.net/index.html",
   },
 ];

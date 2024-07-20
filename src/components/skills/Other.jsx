@@ -32,7 +32,7 @@ const Other = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Azure Cosmos DB</h3>
+              <h3 className="skills__name">Power BI</h3>
             </div>
           </div>
           <div className="skills__data">

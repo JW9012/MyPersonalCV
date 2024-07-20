@@ -17,7 +17,15 @@ const Backend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">.Net Core</h3>
+              <h3 className="skills__name">.Net Core 8</h3>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">ASP.Net</h3>
             </div>
           </div>
 

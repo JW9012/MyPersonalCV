@@ -17,6 +17,14 @@ const Other = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
+              <h3 className="skills__name">Git & GitHub</h3>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+
+            <div>
               <h3 className="skills__name">Docker</h3>
             </div>
           </div>

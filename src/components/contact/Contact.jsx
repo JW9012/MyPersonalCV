@@ -86,13 +86,13 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
-              <h3 className="contact__card-title">GitHub</h3>
+              <h3 className="contact__card-title">GitHub demo projects</h3>
               <a
-                href="https://github.com/Joshw9012"
+                href="https://github.com/JW9012?tab=repositories"
                 target="_blank"
                 className="contact__card-data"
               >
-                github.com/Joshw9012
+                github.com/JW9012
               </a>
             </div>
           </div>

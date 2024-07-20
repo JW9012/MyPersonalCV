@@ -1,6 +1,6 @@
 import "./about.css";
 
-import CV from "../../assets/Joshw-Cv.pdf";
+import CV from "../../assets/Josh_Wang_Resume.pdf";
 
 const About = () => {
   return (
